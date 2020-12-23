@@ -33,11 +33,11 @@ function MyApp({ Component, pageProps }) {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="/contato">
-          <a>Contato</a>
-        </Link>
         <Link href="/sobre">
           <a>Sobre</a>
+        </Link>
+        <Link href="/contato">
+          <a>Contato</a>
         </Link>
         <a href="/non-existing"> No existing Page</a>
       </nav>
