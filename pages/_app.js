@@ -1,6 +1,5 @@
 import Router from 'next/router'
 import Link from 'next/link'
-import Head from 'next/head'
 import NProgress from 'nprogress'
 import '../styles/globals.css'
 import '../styles/nprogress.css'
@@ -17,9 +16,6 @@ Router.events.on('routeChangeError', () => NProgress.done())
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-
-      </Head>
       <nav>
         <style jsx>
           {
@@ -38,6 +34,9 @@ function MyApp({ Component, pageProps }) {
         </Link>
         <Link href="/contato">
           <a>Contato</a>
+        </Link>
+        <Link href="/imagens">
+          <a>Imagens</a>
         </Link>
         <a href="/non-existing"> No existing Page</a>
       </nav>
